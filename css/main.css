@@ -44,6 +44,8 @@ nav{
     line-height: 46px;
     text-align: center;
     position: relative;
+    padding:0px 30px;
+
 }
 .gnb>li>a{
     font-size: 15px;
@@ -51,10 +53,16 @@ nav{
     text-decoration: none;
     color: #333;
 }
+.sub{
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
 .sub li{
-    line-height: 46px;
+    line-height: 30px;
 }
 .sub li a{
+    font-size: 12px;
     text-decoration: none;
     color: #333;
 }

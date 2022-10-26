@@ -3,7 +3,7 @@ $(document).ready(function(){
     let gnb=$('.h_bottom .gnb')
 
     gnb.hover(function(){//마우스 오버시 동작
-        $('.h_bottom').stop().animate({'height':'320px'},500)
+        $('.h_bottom').stop().animate({'height':'270px'},500)
 
         //서브메뉴 fadein하기
         $('.sub').stop().fadeIn();
