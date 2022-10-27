@@ -7,7 +7,7 @@ $(document).ready(function(){
 
         //서브메뉴 fadein하기
         $('.sub').stop().fadeIn();
-
+    
     },function(){//마우스 아웃시 동작
         $('.h_bottom').stop().animate({'height':'46px'},500)
         //서브메뉴 fadeout하기
@@ -22,7 +22,7 @@ $(document).ready(function(){
     // 마지막 슬라이드를 맨처음 슬라이드 앞으로 자리를 옮긴다.
     $('.m_slide ul>li:last-child').insertBefore('.m_slide ul>li:first-child');
     // mslide.css('margin-left','-1600px');
-    mslide.css('margin-left',s_img);
+    mslide.css('margin-left',-s_img);
 
     $(window).resize(function(){
         s_img=$('.m_slide img').width();
